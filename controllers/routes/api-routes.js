@@ -7,6 +7,8 @@ module.exports = function(app) {
 			name: req.body.name,
 			date: req.body.date,
 			nights: req.body.nights
+		}, function() {
+			res.redirect("/reservation");
 		});
 	});
 
@@ -14,6 +16,8 @@ module.exports = function(app) {
 		Comment.create({
 			name: req.body.name,
 			comment: req.body.comment
+		}, function() {
+			res.redirect("/guestbook");
 		});
 	});
 };
