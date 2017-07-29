@@ -111,7 +111,9 @@ div.picture {
 }
 
 #commentForm {
-  margin-top: 150px;
+  margin-top: 15px;
+  font-family: 'Bellefair', serif;
+  color: #323299;
 }
 
 #commentData {
@@ -129,7 +131,6 @@ div.picture {
 /*  color: #323299;*/ 
   color: white;
   size: 23px;
-  float: right;
 }
 
 #gitLink {
@@ -175,7 +176,6 @@ div.picture {
 }
 
 #commentArea {
-  height: 300px;
   width: 100%;
 }
 
@@ -210,4 +210,8 @@ footer {
   text-align: center;
   font-family: 'Bellefair', serif;
   color: white;
+}
+
+#comment {
+  margin-top: 5px;
 }
