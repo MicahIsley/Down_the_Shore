@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Password123",
+    "database": "downTheShore_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "jnohe5xzlhj868zf",
+    "password": "h4jafrpg7gqy4dhc",
+    "database": "database_production",
+    "host": "lgg2gx1ha7yp2w0k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+
+}
