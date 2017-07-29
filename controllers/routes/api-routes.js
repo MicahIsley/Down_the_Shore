@@ -8,6 +8,7 @@ module.exports = function(app) {
 			date: req.body.date,
 			nights: req.body.nights
 		}, function() {
+			console.log("something");
 			res.redirect("/reservation");
 		});
 	});
@@ -17,6 +18,7 @@ module.exports = function(app) {
 			name: req.body.name,
 			comment: req.body.comment
 		}, function() {
+			console.log("something");
 			res.redirect("/guestbook");
 		});
 	});
